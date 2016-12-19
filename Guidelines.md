@@ -873,7 +873,7 @@ Example:
 GET /customers/16784
 
 {
-  "type": "customers"
+  "type": "customers",
   "id": "16784",
   "attributes": {
     "name": "Joe Smith",
