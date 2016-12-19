@@ -212,7 +212,7 @@ Design Principles help guide us to the correct decision.
    standards wherever possible. Problem-solving is at the core of development,
    and is also the great expense. Avoid implementing custom solutions to
    problems others have already solved, and in doing so we'll avoid creating
-   new problems of our own design for API consumers and code base maintainers.
+   new problems of our own design for API consumers and code base maintainers.  
    &nbsp;  
 3. **Optimize close to the metal.**  
    &nbsp;  
@@ -874,15 +874,17 @@ GET /customers/16784
 
 {
   "type": "customers"
-  "id": "16784",           // note - id represented as a string
+  "id": "16784",
   "attributes": {
     "name": "Joe Smith",
     "age": null,
-    "relatives": [],       // no relatives
+    "relatives": [],
     "address": null
   }
 }
 ```
+
+> **Note:** "id" is represented as a string.
 
 Much like date/time localization, type casting and type transformation should
 only happen once, and as close to the client as possible. Trust the client to
