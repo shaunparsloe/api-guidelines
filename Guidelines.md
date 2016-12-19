@@ -1667,7 +1667,7 @@ What other designs have been considered? What is the impact of not doing this?
 
 # Unresolved Questions
 
-Another RFC covers API and microservice naming conventions.
+Coming soon...
 
 [drf-1]: http://www.django-rest-framework.org/api-guide/versioning/#using-accept-headers-with-vendor-media-types
 [header-registry]: http://www.iana.org/assignments/message-headers/message-headers.xhtml
